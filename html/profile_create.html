@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>profile_create</title>
+  </head>
+<body>
+  <div class="container">
+      <div class="row my-5">
+        <div class="col-5">
+          <span>アイコン</span>
+            <input type="file" alt="" class="form-control img-thumbnail w-100 h-25" id="exampleInputFile" aria-describedby="fileHelp">
+        </div>
+
+      <div class="col-7">
+        <span>名前</span>
+         <div class="row">
+           <div class="col-5">
+             <label for=""></label>
+             <input type="text" class="form-control" id="famiryName" placeholder="性" value="" required="">
+             <div class="invalid-feedback">
+              "必須項目となります"
+             </div>
+           </div>
+        　 <div class="col-5">
+             <label for=""></label>
+             <input type="text" class="form-control" id="firstName" placeholder="名" value="" required="">
+             <div class="invalid-feedback">
+               "必須項目となります"
+             </div>
+          </div>
+      </div>
+      <div class="row">
+         <div class="col-5">
+           <span>年齢</span>
+               <label for=""></label>
+               <input type="text" class="form-control" id="age" placeholder="" value="" required="">
+               <div class="invalid-feedback">
+                 "必須項目となります"
+               </div>
+          </div>
+         <div class="col-6">
+          <fieldset class="form-group">
+           <span>性別</span>
+              <div class="form-check">
+               <label class="form-check-label">
+               <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked=""> 男</label>
+            </div>
+              <div class="form-check">
+               <label class="form-check-label">
+               <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2" > 女</label>
+              </div>
+    　     </fieldset>
+         </div>
+      </div>
+     </div>
+    </div>
+
+    <div class="row my-4">
+       <div class="card col-12 shadow-sm">
+            <div class="card-header">
+              <h5 class="my-0 font-weight-normal">紹介分</h5>
+            </div>
+            <input type="" class="form-control" id="myProfile" placeholder="" value="" required="">
+            <div class="card-header">
+              <h5 class="my-0 font-weight-normal">好きな作品</h5>
+            </div>
+            <input type="text" class="form-control" id="bestwork" placeholder="" value="" required="">
+       </div>
+     </div>
+     <div class="row justify-content-end">
+          <button type="button">更新</button>
+     </div>
+ </div>
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
